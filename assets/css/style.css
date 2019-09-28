@@ -1,8 +1,11 @@
 html, body {
-    background: #333;
+    /* background: #ddd; */
     height: 100%;
 }
-
+main {
+    background: #ddd url("../images/github-octocat.png") center no-repeat ;
+    min-height: calc(100% - 56px);
+}
 .load {
     width: 300px;
     position: absolute;
@@ -12,4 +15,13 @@ html, body {
 }
 .load img{
     width: 100%;
+    padding: 5%;
+}
+.profile {
+    background: white;
+    margin: 25px 0;
+}
+.profile .card{ 
+    width: 100%;
+
 }

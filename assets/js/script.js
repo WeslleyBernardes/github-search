@@ -1,8 +1,9 @@
 $(document).ready(function(){
-    let segundos = 2; 
+    var segundos = 1; //Time
     setTimeout(function(){
-        $('.load').css({'display':'none'});
+        $('.load').hide();
     }, segundos*1000)
-    
+
+
   });
   
