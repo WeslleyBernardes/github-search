@@ -5,6 +5,7 @@ html, body {
 main {
     background: #ddd url("../images/github-octocat.png") center no-repeat ;
     min-height: calc(100% - 56px);
+    
 }
 .load {
     width: 300px;
@@ -18,10 +19,21 @@ main {
     padding: 5%;
 }
 .profile {
-    background: white;
+    background: rgba(255,255,255, 0.7);
     margin: 25px 0;
+    max-height: 80%;
+    overflow: auto;
+    overflow-x: hidden;
 }
-.profile .card{ 
-    width: 100%;
 
+.profile .card { 
+    width: 99%;
+    margin: 10px;
+}
+.profile h3{ 
+    margin: 10px;
+}
+.profile .repos {
+    width: 100%;
+    padding: 10px 20px 10px 0px;
 }
