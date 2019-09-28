@@ -5,8 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GitHub Search</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/4.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Buscar no GitHub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Repositório do projeto <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link about" href="#">Sobre</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Documentações
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Link</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input id="searchUser" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="searchGitHub" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="container">
+                <div class="row">
+                        <div class="col-sm">
+                                <div id="profile"></div>
+                        </div>
+                </div>
+        </div>
+        
+    </main>
+
+
     
+    
+    <script src="assets/js/jquery/3.4.1/jquery-3.4.1.min.js"></script>
+    <script src="assets/bootstrap/4.3/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
